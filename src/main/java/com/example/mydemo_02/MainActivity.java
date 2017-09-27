@@ -41,14 +41,9 @@ public class MainActivity extends AppCompatActivity {
         webView.setWebViewClient(myWebViewClient);
 
     }
-//    private String descString() {
-//        return "八维" + "<img src='" + R.mipmap.account_icon_kaixin
-//                + "'/>" + "教育" ;
-//
-//    }
-//
+
     public void dianji(View view){
-        StringBuffer sb = new StringBuffer("http://www.baidu八维考试.com");
+        StringBuffer sb = new StringBuffer("http://www.baidu我爱工作.com");
         sb.deleteCharAt(sb.length()-8);
         sb.deleteCharAt(sb.length()-7);
         sb.deleteCharAt(sb.length()-6);
