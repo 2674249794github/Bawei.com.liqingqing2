@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv_text = (TextView) findViewById(R.id.jieshou02);
-        String html = "<font>八维</font><img src=‘strawberry'><font>教育</font>";
+        String html = "<font>我爱</font><img src=‘strawberry'><font>工作</font>";
         CharSequence text = Html.fromHtml(html, new Html.ImageGetter() {
             public Drawable getDrawable(String source) {
 //根据图片资源ID获取图片
